@@ -15,5 +15,6 @@ public class NamingJava {
         //Lowwer Camel Case
         String fullName = "Ana Maria Velasquez Gonzalez";
         int sizeInCentimeters = 26;
+
     }
 }
