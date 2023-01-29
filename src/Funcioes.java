@@ -6,8 +6,9 @@ public class Funcioes {
      */
 
     /**
-     *
-     * @param args
+     *Descripción: Función que especificando su moneda convierte una cantidad de dinero a dolares
+     * @param args Cantidad de dinero
+     * @return Devuelve la cantidad actualizada e n dolares
      */
 
     public static void main(String[] args) {
@@ -22,11 +23,17 @@ public class Funcioes {
         System.out.println(4*Math.PI*Math.pow(y,2));
         //(4/3)*PI*r3
         System.out.println((4/3)*Math.PI*Math.pow(y,3));
-        System.out.println("PESOS A DOLARES "+convertToDolar(1000,"COP") );
+
 
 
 
     }
+
+    /**
+     * Descripción: Calcula el area de un circulo
+     * @param r: El parametro del valor del radio
+     * @return: Retorna el area total del circulo
+     */
     public static double circleArea(double r){
         return Math.PI*Math.pow(r,2);
     }
